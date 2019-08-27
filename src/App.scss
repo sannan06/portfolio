@@ -1,0 +1,51 @@
+/* prettier-ignore */
+$heading-font: 'PT Serif',
+serif;
+$main-blue: rgb(30, 56, 100);
+
+.intro {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    // border: 2px solid red;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+
+    h1 {
+        font-family: $heading-font;
+        font-size: 4rem;
+        color: white;
+        // -webkit-text-fill-color: white;
+        // /* Will override color (regardless of order) */
+        // -webkit-text-stroke-width: 0.005rem;
+        // -webkit-text-stroke-color: black;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-family: $heading-font;
+        color: white;
+        // -webkit-text-fill-color: white;
+        // /* Will override color (regardless of order) */
+        // -webkit-text-stroke-width: 0.005rem;
+        // -webkit-text-stroke-color: black;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.intro-container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("./images/ls2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
