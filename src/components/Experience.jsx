@@ -49,13 +49,6 @@ export default function About() {
                         </div>
                     </div>
                 </Reveal>
-                <div className="row justify-content-md-center">
-                    <div className="col-md-auto">
-                        <button type="button" class="btn btn-outline-dark">
-                            Get My CV
-                        </button>
-                    </div>
-                </div>
             </div>
         </React.Fragment>
     );

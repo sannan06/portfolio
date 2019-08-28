@@ -44,7 +44,10 @@ export default function About() {
                             </p>
                         </div>
                     </div>
-                    <div className="row justify-content-md-center">
+                    <div
+                        className="row justify-content-md-center"
+                        style={{ marginTop: "1.3rem" }}
+                    >
                         <div className="col-md-5">
                             <h1>Image here</h1>
                         </div>
