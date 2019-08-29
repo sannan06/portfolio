@@ -26,7 +26,7 @@ export default function About() {
                         </div>
                     </div>
                 </Fade>
-                <Reveal effect="fadeIn">
+                <Fade delay={200}>
                     <div className="row justify-content-md-center">
                         <div className="col-md-5">
                             <p className="body-paragraph">
@@ -53,7 +53,7 @@ export default function About() {
                             </button>
                         </div>
                     </div>
-                </Reveal>
+                </Fade>
             </div>
         </React.Fragment>
     );

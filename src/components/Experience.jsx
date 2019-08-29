@@ -29,7 +29,7 @@ export default function About() {
                         </div>
                     </div>
                 </Fade>
-                <Reveal effect="fadeIn">
+                <Fade delay={200}>
                     <div className="row justify-content-md-center">
                         <div className="col-sm-4" style={{ flex: 1 }}>
                             <img src={adhb} alt="ADHB Logo" id="adhb-logo" />
@@ -52,7 +52,7 @@ export default function About() {
                             </p>
                         </div>
                     </div>
-                </Reveal>
+                </Fade>
             </div>
         </React.Fragment>
     );
