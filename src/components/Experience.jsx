@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Reveal from "react-reveal/Reveal";
+import adhb from "../images/adhb.jpeg";
 
 export default function About() {
     return (
@@ -9,12 +10,14 @@ export default function About() {
                 className="container-fluid"
                 style={{
                     paddingTop: "2rem",
-                    backgroundColor: "#f5f5f5",
                     paddingBottom: "2rem"
                 }}
             >
                 <Fade>
-                    <div className="row justify-content-md-center">
+                    <div
+                        className="row justify-content-md-center"
+                        style={{ marginBottom: "1.5rem" }}
+                    >
                         <div className="col-1">
                             <hr className="section-break" />
                         </div>
@@ -28,23 +31,24 @@ export default function About() {
                 </Fade>
                 <Reveal effect="fadeIn">
                     <div className="row justify-content-md-center">
-                        <div className="col-md-5">
+                        <div className="col-sm-4" style={{ flex: 1 }}>
+                            <img src={adhb} alt="ADHB Logo" id="adhb-logo" />
+                        </div>
+                        <div className="col-sm-5">
+                            <h2 className="subheading">Auckland DHB</h2>
+                            <h3 className="byline">
+                                Software Developer Intern, Dec 2018-Feb 2019
+                            </h3>
                             <p className="body-paragraph">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Etiam et fermentum dui. Ut orci
-                                quam, ornare sed lorem sed, hendrerit auctor
-                                dolor. Nulla viverra, nibh quis ultrices
-                                malesuada, ligula ipsum vulputate diam, aliquam
-                                egestas nibh ante vel dui. Sed in tellus
-                                interdum eros vulputate placerat sed non enim.
-                                Pellentesque eget. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Etiam et fermentum
-                                dui. Ut orci quam, ornare sed lorem sed,
-                                hendrerit auctor dolor. Nulla viverra, nibh quis
-                                ultrices malesuada, ligula ipsum vulputate diam,
-                                aliquam egestas nibh ante vel dui. Sed in tellus
-                                interdum eros vulputate placerat sed non enim.
-                                Pellentesque eget.
+                                Worked in a team of 3 interns on a brand new
+                                collaborative tool that we created from the
+                                ground up. I worked primarily on front-end
+                                development, and collaborated closely with
+                                stakeholders (nurses, department heads etc) to
+                                refine the product and make something that they
+                                would actually use, and not see as a bother.
+                                Technology Stack: React.JS front-end, ASP.NET
+                                Core Web API, Azure SQL, and Azure Web App.
                             </p>
                         </div>
                     </div>

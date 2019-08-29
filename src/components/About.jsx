@@ -30,21 +30,19 @@ export default function About() {
                     <div className="row justify-content-md-center">
                         <div className="col-md-5">
                             <p className="body-paragraph">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Etiam et fermentum dui. Ut orci
-                                quam, ornare sed lorem sed, hendrerit auctor
-                                dolor. Nulla viverra, nibh quis ultrices
-                                malesuada, ligula ipsum vulputate diam, aliquam
-                                egestas nibh ante vel dui. Sed in tellus
-                                interdum eros vulputate placerat sed non enim.
-                                Pellentesque eget. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Etiam et fermentum
-                                dui. Ut orci quam, ornare sed lorem sed,
-                                hendrerit auctor dolor. Nulla viverra, nibh quis
-                                ultrices malesuada, ligula ipsum vulputate diam,
-                                aliquam egestas nibh ante vel dui. Sed in tellus
-                                interdum eros vulputate placerat sed non enim.
-                                Pellentesque eget.
+                                Welcome, and thanks for visiting. My name's
+                                Sannan, and I'm a Part II Software Engineering
+                                Student at the Univeristy of Auckland. My
+                                passion is front-end design, and I've done a few
+                                projects around that. That said, I'm interested
+                                in all stages of software development, and what
+                                I may lack in experience, I more than make up
+                                for with a passion to learn and improve. I also
+                                have a penchant for working on and leading
+                                projects/teams, and am currently working on an
+                                exciting new product aimed at students (keep an
+                                eye here). Take a look below to see what I'm up
+                                to, and enjoy your stay.
                             </p>
                         </div>
                     </div>

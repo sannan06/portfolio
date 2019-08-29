@@ -70,3 +70,19 @@ hr.section-break {
     color: #333;
     text-align: center;
 }
+
+h2.subheading {
+    font-family: $heading-font;
+    font-weight: 600;
+}
+
+h3.byline {
+    font-family: $heading-font;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#adhb-logo {
+    float: right;
+    height: 50%;
+}

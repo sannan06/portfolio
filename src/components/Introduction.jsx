@@ -7,7 +7,7 @@ export default function Introduction() {
             <div className="intro">
                 <div className="row">
                     <Fade bottom>
-                        <div className="col-6 col-xl-5 offset-md-6">
+                        <div className="col-6 col-xl-5 offset-6 offset-xl-7">
                             <h1>Sannan Hafeez</h1>
                             <h2>Software Engineering Student</h2>
                         </div>

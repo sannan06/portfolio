@@ -5,6 +5,7 @@ import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Volunteer from "./components/Volunteer";
 
 function App() {
     // TODO: do a mobile check at some point
@@ -17,6 +18,7 @@ function App() {
             <About />
             <Experience />
             <Projects />
+            <Volunteer />
         </React.Fragment>
     );
 }
