@@ -9,6 +9,7 @@ export default function About() {
                     <div
                         className="row justify-content-md-center"
                         style={{ marginBottom: "1rem" }}
+                        id="projects"
                     >
                         <div className="col-1">
                             <hr className="section-break" />
