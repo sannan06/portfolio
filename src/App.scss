@@ -1,8 +1,7 @@
 /* prettier-ignore */
 $heading-font: 'Montserrat',
 sans-serif;
-$body-font: "Noto Sans",
-sans-serif;
+$body-font: "Noto Sans", sans-serif;
 $main-blue: rgb(30, 56, 100);
 
 // ? Maybe recenter image for small screens
@@ -56,6 +55,13 @@ body {
         font-weight: 600;
         font-size: 1.3rem;
         // border-width: 1.2px;
+    }
+}
+
+.projects {
+    .image img {
+        width: 100%;
+        margin-bottom: 1.3rem;
     }
 }
 
