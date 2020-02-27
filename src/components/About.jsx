@@ -48,7 +48,15 @@ export default function About() {
                     <div className="row justify-content-md-center">
                         <div className="col-md-auto">
                             <button type="button" class="btn btn-outline-dark">
-                                Get My CV
+                                <a
+                                    style={{
+                                        textDecoration: "none",
+                                        color: "black"
+                                    }}
+                                    href="https://sannanh.netlify.com/.netlify/functions/cv-download"
+                                >
+                                    Get My CV
+                                </a>
                             </button>
                         </div>
                     </div>
