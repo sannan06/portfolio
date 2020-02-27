@@ -1,10 +1,10 @@
-'use strict';
-const express = require('express');
-const serverless = require('serverless-http');
-const app = express();
+const fs = require("fs")
 
-app.get('/download', (req, res) => {
-    res.download("./cv.pdf");
-})
+const file = fs.readFileSync("./cv.pdf")
 
-module.exports.handler = serverless(app);
+exports.handler = function (event, context, callback) {
+    callback(null, {
+        statusCode: 200,
+        body: `${file}`
+    })
+}
